@@ -52,9 +52,8 @@ export class TodosComponent implements OnInit {
   		}
   	}
 
-  	this.text = '';
-
   	this._todoService.updateTodo(this.oldText, this.text);
+  	this.text = '';
   }
 
 }
