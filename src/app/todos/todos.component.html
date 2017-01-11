@@ -1,4 +1,4 @@
-<div *ngIf="appState == 'default'">
+<div *ngIf="appState == 'default'" class="container">
 	<h3>Add Todo</h3>
 	<form (submit)="addTodo()">
 		<input type="text" [(ngModel)]="text" name="text">
