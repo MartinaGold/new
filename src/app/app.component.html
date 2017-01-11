@@ -1,4 +1,14 @@
-<h1>
-  {{title}}
-</h1>
- <app-todos></app-todos>
+<div class="container">
+	<div class="row">
+		<div class="col-xs-10">
+			<h1>{{title}}</h1>
+			<hr>
+			<a [routerLink]="['/home']">Home</a>
+			<a [routerLink]="['/user']">User</a>
+			<a [routerLink]="['/todos']">Todos</a>
+			<hr>
+			<router-outlet></router-outlet> 
+		</div>
+	</div>
+</div>
+
