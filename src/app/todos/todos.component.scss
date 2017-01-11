@@ -1,5 +1,13 @@
-$background-color: gray;
+form input {
+	width: 200px;
+}
 
-.container {
-	background-color: $background-color;
+.add-container {
+	background-color: #CBE2CC;
+	padding-bottom: 35px;
+}
+
+.edit-container {
+	background-color: #D6DAF1;
+	padding-bottom: 35px;
 }
