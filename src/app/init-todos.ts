@@ -1,6 +1,8 @@
 export class Init {
 	load(){
-		if(localStorage.getItem('todos') === null || localStorage.getItem('todos') === undefined){
+    let parseTodos = JSON.parse(localStorage.getItem('todos'));
+
+		if(localStorage.getItem('todos') === null || localStorage.getItem('todos') === undefined || parseTodos.length === 0){
 			console.log('no todos found....creating');
 			var todos = [
 		  		{
@@ -15,7 +17,6 @@ export class Init {
 			];
 
 			localStorage.setItem('todos', JSON.stringify(todos));
-			return
 		} else {
 			console.log('found todos');
 		}

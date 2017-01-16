@@ -1,0 +1,11 @@
+{
+  "Home": "Home",
+  "User": "User",
+  "Todos": "Todos",
+	"Languages":{
+		"English": "English",
+		"French": "French"
+	},
+	"MainTxt": "Haloo",
+  "title": "App works"
+}

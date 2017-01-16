@@ -1,0 +1,12 @@
+{
+  "Home": "Domicile",
+  "User": "Utilisateur",
+  "Todos": "Todos",
+	"Languages":{
+		"English": "Anglais",
+		"French": "Francais"
+	},
+	"MainTxt": "Bienvenue",
+  "title": "App travail"
+
+}
